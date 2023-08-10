@@ -9,7 +9,6 @@ function canPay(items, cost) {
     return total >= cost;
 }
 
-// Sample inputs and outputs
-console.log(canPay([1, 2, 5], 10)); // Output: false
-console.log(canPay([1, 5, 5], 10)); // Output: true
-canPay([], 10); // Output: Empty array. Please provide items.
+console.log(canPay([1, 2, 5], 10));
+console.log(canPay([1, 5, 5], 10)); 
+canPay([], 10); 

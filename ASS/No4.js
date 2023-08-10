@@ -10,7 +10,6 @@ function findAddress(addressObject) {
     return `${street},${house},${society}`;
 }
 
-// Sample inputs and outputs
-console.log(findAddress({street: 10, house: "15A", society: "Earth Perfect"})); // Output: 10,15A,Earth Perfect
-console.log(findAddress({street: 10, society: "Earth Perfect"})); // Output: 10,__,Earth Perfect
-console.log(findAddress({street: 10})); // Output: 10,__,__ 
+console.log(findAddress({street: 10, house: "15A", society: "Earth Perfect"}));
+console.log(findAddress({street: 10, society: "Earth Perfect"}));
+console.log(findAddress({street: 10}));
